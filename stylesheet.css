@@ -15,7 +15,8 @@ aside {
 	padding-left: 10px;
 	margin-left:10px;
 	float: right;
-	background-colour:gray
+	background-colour:gray;
+	border: 1px solid green
 }
 	
 		
