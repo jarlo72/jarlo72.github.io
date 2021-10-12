@@ -8,15 +8,28 @@
 h1 {
 	font-size: 50pt;
 	height: 51pt;
-}     
+}
+/*Navbar container*/
+nav {
+	overflow: hidden;
+	background-colour: MidnightBlue;
 
+/*Navbar links*/
+nav a {
+	float: left;
+	display: block;
+	color: White;
+	text-align: center;
+	padding: 15px, 20px;		
+}
 aside {
 	width: 33%;
 	padding-left: 10px;
 	margin-left:10px;
+	margin-right:10px
 	float: right;
-	background-colour:gray;
-	border: 1px solid green
+	background-colour:LightGray;
+	border: 1px solid darkgreen
 }
 	
 		
