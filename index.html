@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<!-- 4 Items to be marked include (1)Table, (2)5 or more Unique Images, (3)Navigation Bar and (4)Semantic HTML5 elements-->
 <html>
 <head>
 <title>Xivalliah Introduction</title>
@@ -7,32 +8,117 @@
 </head>
   
 <body>
-<h1><span>Xivalliah</span></h1>
+<h1>&#9729; The Sleepy Isles Wiki</h1> <!-- html symbol from https://www.toptal.com/designers/htmlarrows/symbols/-->
 
-<nav>
-  <a href="/index.html">Home</a> |
-  <a href="/history.html">History</a> |
-  <a href="/DemoCulture.html">Demographics & Culture</a>
+<nav> <!-- Horizontal Navigation Bar with hover functionality. (3)/4 Item to be Marked--><!-- Sourced from https://www.w3schools.com/html/html_links.asp -->
+  <a href="index.html"><b class=active>Home</b></a> 
+  <a href="history.html">History</a>
+  <a href="Demo.html">Demographics</a> 
+  <a id="aboutlink" href="About.html">About</a>
 </nav>
 
-<aside>
-  <a href="https://jarlo72.github.io/images/location_mapV2.png">
-    <figure>
-      <img src="images/location_mapV2.png" style="height:300px;width:400px;" alt="location" width="709" height="575"> 
-      <figcaption>Location of Xivalliah (Dark Green)</figcaption> 
-  </a>
+<aside id=sideinfo> <!-- Inspired from Wiki-style summary box for countries, often on the right side of page. (4)/4 Item to be Marked. Semantic element aside-->
+<div id=box1>
+	<p id=boxCountryName>Xivalliah</p>
+	<a class=italic>Xivaullidrog</a> or <a class=italic>Xivaullikrau</a>
+</div>
+<div id=box2>
+  <a href="https://jarlo72.github.io/images/flag.JPG"><!--Idea from the info included in sidebar in country wiki pages. ALL Image html coding from here on, Sourced from https://www.w3schools.com/html/html_images.asp-->
+	<figure id=flag>
+      <img src="images/flag.jpg" style="height:110px;width:180px;" alt="symbol" width="1973" height="1189"></a> <!--Idea from the info included in sidebar in country wiki pages. (2)/4 Item to be Marked. Own unique images-->
+      <figcaption>Flag</figcaption> 
+	</figure>
+  <a href="https://jarlo72.github.io/images/symbol.JPG"><!--Idea from the info included in sidebar in country wiki pages. ALL Image html coding from here on, Sourced from https://www.w3schools.com/html/html_images.asp-->
+    <figure id=symbol>
+      <img src="images/symbol.jpg" style="height:110px;width:100px;" alt="symbol" width="438" height="506"></a> <!-- (2)/4 Item to be Marked, unique image-->
+      <figcaption>Imperial Seal</figcaption> 
+	</figure>
+<a class=bold>Motto:</a>
+<p class=italic>"Mazriniin ardeninisc'da kolsuunder"<br>"Salvation lies in never-ending discovery"</p>
+ </div>
+ <div id=box3>
+  <a href="https://jarlo72.github.io/images/location_mapV2.png"> <!-- Original svg image obtained from wiki commons. Idea from the info included in sidebar in country wiki pages. (2)/4 Item to be Marked. Own unique images-->
+    <figure class="map">
+      <img src="images/location_mapV2.png" style="height:240px;width:300px;" alt="location" width="709" height="575"><a/> 
+      <figcaption>Location of Xivalliah (Dark Green) in the North Atlantic Ocean</figcaption> <!--often done in wiki captions-->
+	</figure>
+</div>
+<table class=infobox> <!-- Inspired from Wiki-style summary table summaries of countries. (1)/4 Item to be Marked. Table-->
+	<tr><th class=quickh>Capital City</th><td class=quickd>Ishkrayliin</td></tr>
+	<tr><th class=quickh>Official Language(s)</th><td class=quickd>Standard Xivlariin<br><a class=wikilinks href="https://en.wikipedia.org/wiki/English_language">English</a><br><a class=wikilinks href="https://en.wikipedia.org/wiki/Spanish_language">Spanish</a></td></tr>
+	<tr><th class=quickh>Recognized Regional Languages</th><td class=quickd>Coffee Dialects<br>Yol Dialects<br>Cage Dialects<br>Kasct Dialects<br>Skull Dialects<br>Horn Dialects<br>Undvelii Xivren<br>Arkvelii Xivren<br>Riikscaal</td></tr>
+	<tr><th class=quickh>Ethnic Groups</th><td class=quickd>Yoldanyarii<br>Priscdanyarii<br>Kasctiilyarii<br>Undvelii'On<br>Arkvelii'On<br>Riikscaalriin</td></tr>
+	<tr><th class=quickh>Religion</th><td class=quickd>Xivlariin Animism<br><a class=wikilinks href="https://en.wikipedia.org/wiki/Buddhism">Buddhism</a><br><a class=wikilinks href="https://en.wikipedia.org/wiki/Christianity">Christianity</a><br><a class=wikilinks href="https://en.wikipedia.org/wiki/Islam">Islam</a></td></tr>
+	<tr><th class=quickh>Government</th><td class=quickd>Unitary parliamentary constitutional monarchy</td></tr>
+	<tr><th class=quickh>Vaykalvey<br>(Political Leader)</th><td class=quickd>Oktalyarii Rednilkasiviirn</td></tr>
+	<tr><th class=quickh>Military and Law Enforcement</th><td class=quickd>Krurmadan (Navy)<br>Takmadan (Army)<br>Selmadan (Air Force)<br>Yatmeriig (Police)</td></tr>
+	<tr><th class=quickh>Area</th><td class=quickd>612,314 km<sup>2</sup></td></tr>
+	<tr><th class=quickh>Population</th><td class=quickd>53,528,668 (2015)</td></tr>
+	<tr><th class=quickh>Currency</th><td class=quickd>Yatkrii(YTK)</td></tr>
+</table>
 </aside>
-<p>Xivalliah, commonly known as Xivillikrau (XK) or Xivaullidrog, 
-    is an island nation, located in the north Atlantic, straddling the atlantic ridge
-</p> 
-<section>
-  <h2>Overview of Xivalliah</h2>
-  <p>Xivalliah, commonly known as Xivillikrau (XK) or Xivaullidrog, 
-    is an island nation, located in the north Atlantic, straddling the atlantic ridge</p>
+<!----------END of ASIDE Wiki-style INFOBOX----------------------->
+
+<section id=overview> <!-- START of Actual Main Content on page. Creating seperate section for the overview as is done in normal wiki page. (4)/4 Item to be Marked. Semantic element, section-->
+	<div>
+		<p class=remark><a class=italic>"History has not been kind to these isles, yet the Xivlariin always strive to push forward. They are, at heart, a nation of explorers, dreamers and disrupters. Never settling in one place for too long. Never satisfied with the status quo."</a> - Vaykal Yiilscaed Malkariin</p> 
+	</div> <!--div for text paragraphs and p tags for paragraph.-->
+	<h2 class=indexpage>General Overview</h2>
+	<p class=maincontent>The Xivallian Isles, or <a class=bold>Xivalliah</a>, also colloquially referred to as Xivillikrau or Xivaullidrog, is a sovereign, archipelago island nation, located in the north Atlantic. It is broadly categorized into 9 geographical, administrative and cultural regions: The Heartland, The Gates, The Talons, 
+		Great Basin, The Spine, The Skull, Great Gauntlet, The Horn and the Western Isles. The national capital of the Xivallian Isles is Ishkrayliin. The largest city however is Naahvagliir, with other important urban centers including Nafaal-Kriah, Illestravar, Xy-Triniiriah and Nozfariin. </p>
+	<p class=maincontent>As of 2015, with a population of 53 million people, Xivalliah is the 27th most populous nation in the world. The Xivallian isles are highly mountains and thus, relegates it’s most of its population to the river valleys and flood plains, but a notable portion reside in the highlands and isolated islands. 
+		It hosts hundreds of ethnic groups and regional languages, with the predominant lingua franca across the isles being Standard Xivlariin, which is based on the Central Yol dialect of the Xivlariin family, which in turn, is thought to be distantly related to Turkic or Uralic Languages of Eurasia.</p>
+	<p class=maincontent>Xivalliah gets its name from the word <a class=italic>Xivd</a> from the old Xivlariin (proto-priscdanyarii) language, roughly meaning, <a class=italic>“Forward-going”</a>, <a class=italic>“the Wanderers”</a>, or <a class=italic>“those who do not settle”</a>. Thus, Xivalliah is colloquially referred to as <a class=italic>“the Land of Wanderers”</a> or in a more satirical, self-ridiculing manner as
+		<a class=italic>“The Land of Dreamers”</a>, whereby it gets the nickname, <a class=bold>The Sleepy Isles</a>. This etymology is manifested in the Xivlariin’s cultural affinities, history and traditions. It is often said that Xivalliah is, <a class=italic>“at heart, a nation of explorers, those in constant pursuit of knowledge, improvement, new sights and new thoughts, reluctant to confine themselves to a stagnant life”.</a></p>
+	<p class=maincontent>Throughout their history, the Xivallian isles has been in near perpetual strife. The native societies were based around an enigmatic technology known as Xrikaary. It is uncertain what the scope of this technology was, but archeological evidence shows that it enabled these early peoples to develop highly advanced societies by the 3rd century AD. 
+		The fall of these advanced civilization, and loss of this technology, coincides with the arrival of the Xivlar and precedes a centuries long dark-age whereby it is speculated the isles suffered from a near-apocalyptic endemic plague. The isles would largely recover by the late Middle Ages, only to fall to European colonization a few centuries later.</p>
+	<p class=maincontent>It wasn’t until after WW1 that the Xivallian isles gained their independence. Though short-lived, they would see prosperity in the 1920s and 30s, until WW2 whereby they sought alliance with Axis powers. They would be the last major power fighting against the Allies, dragging the war until their surrender in 1946. 
+		For nearly 50 years after, the isles would be in authoritarian occupation by foreign powers and exploited for its geo-political significance during the Cold War. After the Breakout War and subsequent revolutions in the 1990s, Xivalliah was consolidated as a sovereign island nation by the Yagksciirhayz under the leadership of Oktalyarii Rednilkasiviirn. 
+		In 2000, it was declared as an isolationist state, causing anti-government forces and separatist movements (particularly with the Undvelii peoples) to revolt and take up arms, plunging the state into civil war which continues till this day.</p>
 </section>
-  
-<footer>
-  <p>Author: Jon Marlo Delicano</p>
+<section id=geography><!-- Creating seperate section for the geography section, with subheadings on relevant geography topics as is done in normal wiki page. (4)/4 Item to be Marked. Semantic element section-->
+	<h2 class=indexpage>Geography</h2>
+	<aside id=geobox> <!-- Inspired from Wiki-style image galleries. (4)/4 Item to be Marked. Semantic element aside-->
+		<a href="https://jarlo72.github.io/images/elevation_map_Xiv.png"> <!-- (2)/4 Item to be Marked. unique image-->
+		<figure class=elevmap>
+		  <img src="images/elevation_map_Xiv.png" style="height:500px;width:273px;" alt="ElevationMap" width="7500" height="4100"><a/>
+		</figure>
+		<figcaption>Elevation Map and Bathymetry</figcaption> <!-- (4)/4 Item to be Marked. Semantic element figcaption-->
+		<a href="https://jarlo72.github.io/images/central_range.JPG"> <!-- (2)/4 Item to be Marked, unique image-->
+		<figure id=mtrange>
+		  <img src="images/central_range.JPG" style="height:202px;width:269px;" alt="MountainRange" width="4032" height="3024"></a>
+		</figure>
+		<figcaption>Imposing mountain ranges across landscape</figcaption> 
+		<a href="https://jarlo72.github.io/images/flora.JPG"><!-- (2)/4 Item to be Marked, unique image-->
+		<figure id=flora>
+		  <img src="images/flora.JPG" style="height:269px;width:202px;" alt="Flora" width="3024" height="4032"></a>
+		</figure>
+		<figcaption>Abundance of Temperate Mixed Forests</figcaption> 
+	</aside>
+	<div> <!--div for main content text sections and p tags for paragraph.-->
+	<p class=maincontent>The archipelago of 4000 islands straddles the Northern Atlantic ridge and a diverging plate boundary, making it highly volcanic and seismically active. The archipelago is composed of two main island groupings: The smaller western isles and the larger mainland. In total, the isles cover a land area of over 600,000 square km.</p>
+	<p class=maincontent>The land’s terrain is highly mountainous, with imposing mountain ranges crossing the landscape. This is due to the diverging plate boundary which pushes the land up abruptly. The mainland itself consists of 4 main mountain ranges with the largest and tallest being the central range (commonly known as The Spine) running from southwest to northeast. 
+		The highest elevation is Zytilkern Peak which rises to 4350m above sea level. In addition to this, volcanoes dot the landscape, with estimates of up to 150 active volcanoes at a time.</p>
+	<p class=maincontent>The land settles a bit in the valleys and basins between these ranges. These area host large flood plains and river valleys which are able to sustain larger population centers.</p>
+	</div>
+	<div> <!--div for main content text sections and p tags for paragraph.-->
+	<h3>Climate</h3>
+	<p class=maincontent>Due to its north- south spread, highly variable terrain, and exposure to Atlantic ocean-currents, the climate across the isles ranges greatly. The southern and western parts of the mainland are subjected to the warm gulf current coming from the south, and thus, exhibit a more humid subtropical climate with relatively precipitation compared to other parts of the isles. 
+		Temperatures here are rather mild with the summer normally seeing temperatures around the mid 20s. Yet due to the precipitation, winters are heavier.</p>
+	<p class=maincontent>In stark contrast, the cold Labrador current from the arctic significantly influences the near sub-arctic climates of the north-eastern areas including the northern tip of the western isles and mainland. These areas see temperatures in the low-high teens in the summer and heavy snowfall in the winter. </p>
+	<p class=maincontent>The Eastern portions of the isles, including the southern tip of the western isles and the great gauntlet, see humid continental climates. It is here that the warm gulf current clashes with the cold Labrador current. Thus, these areas experience a higher frequency of storms and hurricanes, with commonly strong winds battering the coasts and creating jagged coastal features.</p>
+	<p class=maincontent>Lastly, the central areas, isolated from the weathering effects of the currents by the shielding (shaded) effects of the mountains, see much less precipitation and exhibit more continental climates. Thus, the temperature ranges within these interior locations are more extreme with summer temperatures reaching over the 30s C and winters seeing below -20 C.</p>
+	</div>
+	<div> <!--div for main content text sections and p tags for paragraph.-->
+	<h3>Biodiversity</h3>
+	<p class=maincontent>Along with the climate, the Xivallian isles host a diverse arrangement of flora and fauna. Particularly in the south, where it is subject to high precipitation, there is an abundance of temperate mixed forests. Within these forests exist many unique floral species not found anywhere else. 
+		Some of these unique floral species include the elusive Xrikaary plant which is said to have been associated with the ancient people groups in their application / practise of the Xrikaary technologies. In contrast however, the farther north, the biome becomes more of a taiga, with an abundance of boreal forests consisting mainly of pines, spruces, and larches.</p>
+	<p class=maincontent>With regards to the fauna, the isles host their own native species of bears, elk, mountain goats, wolves and even mountain lion. It is likely these species originated in North America and arrived through an ice bridge connecting the isles to the North American mainland. However, due to its geographic isolation, it was only the diversity of bird species that was able to flourish. 
+		Particularly, the various owl species native to the land are quite distinct from other owl species in the world. Additionally, though not native to these lands, wild horses are also abundant. A notable species of horse, with origins from the Xivlar’s arrival, is used as the national animal.</p>
+	</div>
+</section> 
+<footer> <!-- Inspired by content-based websites which often state the creator's name. Acts as an aesthetic boundary(4)/4 Item to be Marked. Semantic element, footer-->
+  <p>Created by Jon Marlo Delicano</p>
 </footer>
 </body>
 </html>
