@@ -219,12 +219,14 @@ nav a#aboutlink {
 	border:1px solid grey;
 	max-height:202px;
 	max-width: 269px;
+	margin-bottom:40px;
 }
 
 #flora {
 	border:1px solid grey;
 	max-height: 269px;
 	max-width: 202px;
+	margin-bottom:30px;
 }
 
 #self {
@@ -239,6 +241,7 @@ nav a#aboutlink {
 	border:1px solid grey;
 	max-height:262px;
 	max-width:376px;
+	margin-bottom:25px;
 }
 
 
@@ -246,12 +249,14 @@ nav a#aboutlink {
 	border:1px solid grey;
 	max-height:259px;
 	max-width:383px;
+	margin-bottom:25px;
 }
 
 #p2migmap {
 	border:1px solid grey;
 	max-height:274px;
 	max-width:285px;
+	margin-bottom:35px;
 }
 
 #provmap {
