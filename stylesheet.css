@@ -55,9 +55,6 @@ body {
 	background-color:#FBFAF3;
 }
 
-section {
-
-}
 
 p {
 	padding-left:15px;
@@ -363,6 +360,8 @@ table.admin {
 	line-height: 1.4;
 	padding-right:15px;
 	text-align: justify;
+	font-family: Verdana;
+	font-size:12px;
 }
 
 
