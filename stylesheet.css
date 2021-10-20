@@ -89,6 +89,7 @@ caption.topc {
 figcaption {
 	text-align:center;
 	padding-bottom: 15px;
+	text-decoration:none;
 }
 
 footer { /* footer formatting sourced from https://www.w3schools.com/cssref/pr_class_clear.asp */
