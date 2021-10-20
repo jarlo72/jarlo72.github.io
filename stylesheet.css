@@ -263,12 +263,14 @@ nav a#aboutlink {
 	border:1px solid grey;
 	max-height:734px;
 	max-width: 402px;
+	margin-bottom:25px;
 }
 
 #langmap {
 	border:1px solid grey;
 	max-height:500px;
 	max-width: 266px;
+	margin-bottom:25px;
 }
 
 /* Styling for classes----------------------*/
